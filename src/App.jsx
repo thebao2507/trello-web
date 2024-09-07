@@ -1,14 +1,15 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Button from '@mui/material/Button'
+import AcUnitIcon from '@mui/icons-material/AcUnit';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1>cc</h1>
+      <div>thebaodev</div>
+      <Button variant='contained'>Hello word</Button>
+      <Button variant='outlined'>Hi all</Button>
+      <AcUnitIcon />
     </>
   )
 }
